@@ -7,6 +7,9 @@ authors = ["tacticaltofu <dingkevin@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 Flask = "^2.0.2"
+Flask-SQLAlchemy = "^2.5.1"
+Flask-Migrate = "^3.1.0"
+psycopg2 = "^2.9.2"
 
 [tool.poetry.dev-dependencies]
 
